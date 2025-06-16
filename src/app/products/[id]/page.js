@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { getProductById } from '../../../utils/api';
 
+
 export default function ProductDetail({ params }) {
   const [product, setProduct] = useState(null);
 
